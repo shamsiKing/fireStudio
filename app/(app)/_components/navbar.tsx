@@ -6,7 +6,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center">
+    <div className="sticky top-0 flex justify-between items-center">
       <Logo />
       <nav className="grid grid-flow-col font-medium max-md:hidden">
         {navs.map((item) => (
